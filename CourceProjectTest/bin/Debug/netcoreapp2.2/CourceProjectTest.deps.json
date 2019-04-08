@@ -1,0 +1,52 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.2",
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.2": {
+      "CourceProjectTest/1.0.0": {
+        "dependencies": {
+          "CourseProject.DAL": "1.0.0"
+        },
+        "runtime": {
+          "CourceProjectTest.dll": {}
+        }
+      },
+      "CourseProject.DAL/1.0.0": {
+        "dependencies": {
+          "EntityFramework": "6.0.0.0"
+        },
+        "runtime": {
+          "CourseProject.DAL.dll": {}
+        }
+      },
+      "EntityFramework.Reference/6.0.0.0": {
+        "runtime": {
+          "EntityFramework.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.2.61023.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CourceProjectTest/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CourseProject.DAL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EntityFramework.Reference/6.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

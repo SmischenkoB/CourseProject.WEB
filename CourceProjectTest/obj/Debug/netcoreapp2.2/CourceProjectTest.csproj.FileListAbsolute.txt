@@ -1,0 +1,17 @@
+D:\works_c#\CourseProject.WEB\CourceProjectTest\bin\Debug\netcoreapp2.2\CourceProjectTest.deps.json
+D:\works_c#\CourseProject.WEB\CourceProjectTest\bin\Debug\netcoreapp2.2\CourceProjectTest.runtimeconfig.json
+D:\works_c#\CourseProject.WEB\CourceProjectTest\bin\Debug\netcoreapp2.2\CourceProjectTest.runtimeconfig.dev.json
+D:\works_c#\CourseProject.WEB\CourceProjectTest\bin\Debug\netcoreapp2.2\CourceProjectTest.dll
+D:\works_c#\CourseProject.WEB\CourceProjectTest\bin\Debug\netcoreapp2.2\CourceProjectTest.pdb
+D:\works_c#\CourseProject.WEB\CourceProjectTest\bin\Debug\netcoreapp2.2\CourseProject.DAL.dll
+D:\works_c#\CourseProject.WEB\CourceProjectTest\bin\Debug\netcoreapp2.2\EntityFramework.dll
+D:\works_c#\CourseProject.WEB\CourceProjectTest\bin\Debug\netcoreapp2.2\CourseProject.DAL.pdb
+D:\works_c#\CourseProject.WEB\CourceProjectTest\bin\Debug\netcoreapp2.2\CourseProject.DAL.dll.config
+D:\works_c#\CourseProject.WEB\CourceProjectTest\bin\Debug\netcoreapp2.2\EntityFramework.xml
+D:\works_c#\CourseProject.WEB\CourceProjectTest\obj\Debug\netcoreapp2.2\CourceProjectTest.csprojAssemblyReference.cache
+D:\works_c#\CourseProject.WEB\CourceProjectTest\obj\Debug\netcoreapp2.2\CourceProjectTest.csproj.CoreCompileInputs.cache
+D:\works_c#\CourseProject.WEB\CourceProjectTest\obj\Debug\netcoreapp2.2\CourceProjectTest.AssemblyInfoInputs.cache
+D:\works_c#\CourseProject.WEB\CourceProjectTest\obj\Debug\netcoreapp2.2\CourceProjectTest.AssemblyInfo.cs
+D:\works_c#\CourseProject.WEB\CourceProjectTest\obj\Debug\netcoreapp2.2\CourceProjectTest.csproj.CopyComplete
+D:\works_c#\CourseProject.WEB\CourceProjectTest\obj\Debug\netcoreapp2.2\CourceProjectTest.dll
+D:\works_c#\CourseProject.WEB\CourceProjectTest\obj\Debug\netcoreapp2.2\CourceProjectTest.pdb
