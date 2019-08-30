@@ -1,4 +1,5 @@
 ﻿using CourseProject.DAL.Entenies;
+using CourseProject.DAL.Enteties;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +13,7 @@ namespace CourseProject.DAL.Interfaces
         IRepository<Message> Messages { get; }
         IRepository<Info> Infos { get; }
         IRepository<User> Users { get; }
-       
-        void save();
+        IRepository<Role> Roles { get; }
+        void Save();
     }
 }

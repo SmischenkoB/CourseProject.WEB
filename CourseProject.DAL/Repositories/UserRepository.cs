@@ -1,4 +1,5 @@
 ﻿using CourseProject.DAL.Entenies;
+using CourseProject.DAL.Enteties;
 using CourseProject.DAL.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -20,7 +21,10 @@ namespace CourseProject.DAL.Repositories
 
         public void Create(User item)
         {
+           //int id = this.GetAll().Max(u => u.Id);
+           //item.Id = id;
             db.Users.Add(item);
+            db.SaveChanges();
         }
 
         public void Delete(int id)
@@ -29,6 +33,7 @@ namespace CourseProject.DAL.Repositories
             if (obj != null)
             {
                 db.Users.Remove(obj);
+                db.SaveChanges();
             }
         }
 
@@ -49,7 +54,8 @@ namespace CourseProject.DAL.Repositories
 
         public void Update(User item)
         {
-            db.Entry(item).State = System.Data.Entity.EntityState.Modified;            
+            db.Entry(item).State = System.Data.Entity.EntityState.Modified;
+            db.SaveChanges();
         }
     }
 }

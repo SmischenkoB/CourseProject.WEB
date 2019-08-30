@@ -1,4 +1,5 @@
 ﻿using CourseProject.DAL.Entenies;
+using CourseProject.DAL.Enteties;
 using CourseProject.DAL.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -14,6 +15,7 @@ namespace CourseProject.DAL.Repositories
         private InfoRepository infoRepository;
         private MessageRepository messageRepository;
         private UserRepository userRepository;
+        private RoleRepository roleRepository;
 
         public IRepository<Message> Messages
         {
@@ -45,12 +47,22 @@ namespace CourseProject.DAL.Repositories
             }
         }
 
+        public IRepository<Role> Roles
+        {
+            get
+            {
+                if (roleRepository == null)
+                    roleRepository = new RoleRepository(db);
+                return roleRepository;
+            }
+        } 
+
         public void Dispose()
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
         }
 
-        public void save()
+        public void Save()
         {
             db.SaveChanges();
         }

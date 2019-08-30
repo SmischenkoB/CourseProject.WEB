@@ -1,18 +1,23 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace CourseProject.BLL.DTO
 {
-    class UserDTO
+    public class UserDTO
     {
         public int Id { get; set; }
 
         public string Name { get; set; }
-        public string Phone { get; set; }
-        public string Role { get; set; }
 
-        public int? InfoId { get; set; }
-        public int? MessageId { get; set; }
+        public string Password { get; set; }
+
+        public string Phone { get; set; }
+
+        public int[] Role { get; set; }
+
+        public int? Info { get; set; }
     }
 }

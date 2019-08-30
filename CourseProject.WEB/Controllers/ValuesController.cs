@@ -6,16 +6,19 @@ using System.Net.Http;
 using System.Web.Http;
 
 namespace CourseProject.WEB.Controllers
-{
+{   
+    //[AllowAnonymous]
     public class ValuesController : ApiController
     {
         // GET api/values
+        //[AllowAnonymous]
         public IEnumerable<string> Get()
         {
             return new string[] { "value1", "value2" };
         }
 
         // GET api/values/5
+        //[Authorize]
         public string Get(int id)
         {
             return "value";

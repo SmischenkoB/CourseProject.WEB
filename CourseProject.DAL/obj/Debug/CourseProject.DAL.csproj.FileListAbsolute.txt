@@ -5,8 +5,9 @@ D:\works_c#\CourseProject.WEB\CourseProject.DAL\bin\Debug\EntityFramework.dll
 D:\works_c#\CourseProject.WEB\CourseProject.DAL\bin\Debug\EntityFramework.SqlServer.dll
 D:\works_c#\CourseProject.WEB\CourseProject.DAL\bin\Debug\EntityFramework.xml
 D:\works_c#\CourseProject.WEB\CourseProject.DAL\bin\Debug\EntityFramework.SqlServer.xml
-D:\works_c#\CourseProject.WEB\CourseProject.DAL\obj\Debug\CourseProject.DAL.csprojAssemblyReference.cache
 D:\works_c#\CourseProject.WEB\CourseProject.DAL\obj\Debug\CourseProject.DAL.csproj.CoreCompileInputs.cache
 D:\works_c#\CourseProject.WEB\CourseProject.DAL\obj\Debug\CourseProject.DAL.csproj.CopyComplete
 D:\works_c#\CourseProject.WEB\CourseProject.DAL\obj\Debug\CourseProject.DAL.dll
 D:\works_c#\CourseProject.WEB\CourseProject.DAL\obj\Debug\CourseProject.DAL.pdb
+D:\works_c#\CourseProject.WEB\CourseProject.DAL\obj\Debug\CourseProject.DAL.csprojAssemblyReference.cache
+D:\works_c#\CourseProject.WEB\CourseProject.DAL\bin\Debug\System.Data.SqlClient.dll

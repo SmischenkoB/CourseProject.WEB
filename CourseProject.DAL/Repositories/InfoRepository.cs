@@ -1,4 +1,5 @@
 ﻿using CourseProject.DAL.Entenies;
+using CourseProject.DAL.Enteties;
 using CourseProject.DAL.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -20,6 +21,7 @@ namespace CourseProject.DAL.Repositories
         public void Create(Info item)
         {
             db.Infos.Add(item);
+            db.SaveChanges();   
         }
 
         public void Delete(int id)
@@ -28,6 +30,7 @@ namespace CourseProject.DAL.Repositories
             if (obj != null)
             {
                 db.Infos.Remove(obj);
+                db.SaveChanges();
             }
         }
 
@@ -49,6 +52,7 @@ namespace CourseProject.DAL.Repositories
         public void Update(Info item)
         {
             db.Entry(item).State = System.Data.Entity.EntityState.Modified;
+            db.SaveChanges();
         }
     }
 }

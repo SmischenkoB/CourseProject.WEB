@@ -1,4 +1,5 @@
 ﻿using CourseProject.DAL.Entenies;
+using CourseProject.DAL.Enteties;
 using CourseProject.DAL.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -11,6 +12,7 @@ namespace CourseProject.DAL.Repositories
     public class MessageRepository : IRepository<Message>
     {
         private SocialNetworkContext db;
+        
 
         public MessageRepository(SocialNetworkContext context)
         {
@@ -20,6 +22,7 @@ namespace CourseProject.DAL.Repositories
         public void Create(Message item)
         {
             db.Messages.Add(item);
+            db.SaveChanges();
         }
 
         public void Delete(int id)
@@ -28,6 +31,7 @@ namespace CourseProject.DAL.Repositories
             if (obj != null)
             {
                 db.Messages.Remove(obj);
+                db.SaveChanges();
             }
         }
 
@@ -49,6 +53,7 @@ namespace CourseProject.DAL.Repositories
         public void Update(Message item)
         {
             db.Entry(item).State = System.Data.Entity.EntityState.Modified;
+            db.SaveChanges();
         }
     }
 }
